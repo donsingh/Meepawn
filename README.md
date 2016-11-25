@@ -35,5 +35,7 @@ By default, script assumes you have 1 clone. To change it so it would tab-poof t
 
 `b` = All Meepos Poof in current position
 
+`ALT+G` = Immediately Teleports Meepo to Base, After 2.5sec delay Poof All Clones to Base
+
 #Work-In-Progress
 Binding `,` to scatter Meepos. Clicks doesnt seem to work when moving mouse for non activated cursors...
