@@ -3,6 +3,7 @@ AutoHotKey Script for Playing With Meepo in Dota 2
 
 ##Instructions
 
+Doubleclick on *'Meepawn.exe'* and make sure it is running on taskbar.
 
 `Window+P` to Toggle Script ON/OFF
 
