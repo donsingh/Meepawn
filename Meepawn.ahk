@@ -80,7 +80,7 @@ Return
 	Send 1
 	Send !a
 	Send !a
-	Sleep, 2500
+	Sleep, 2850
 	BlockInput On
 	Loop, %Clones%
 	{
@@ -91,6 +91,23 @@ Return
 	}
 	BlockInput Off
 	MouseMove, VirtualWidth/2, VirtualHeight2
+Return
+
+!t::
+	MouseGetPos, xpos, ypos
+	Send 1
+	Send !a
+	Send {Click}
+	Sleep, 2850
+	BlockInput On
+	Loop, %Clones%
+	{
+		Send %A_Tab% 
+		Send f 
+		Sleep, 50
+		MouseClick, left, xpos, ypos
+	}
+	BlockInput Off
 Return
 
 #p::
